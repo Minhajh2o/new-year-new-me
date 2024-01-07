@@ -8,7 +8,8 @@ body {
 }
 header {
   background-image: url("../images/banner/banner1.png");
-  height: 100vh;
+  width: 1600px;
+  height: 808px;
 }
 .banner {
   padding-top: 216px;
@@ -18,12 +19,7 @@ header {
   text-align: right;
   margin-left: 845px;
 }
-/* .banner-text {
-  display: block;
-  justify-items: right;
-  text-align: right;
-  margin-left: 845px;
-} */
+
 .banner-title {
   /* width: 525px; */
   color: #151414;
@@ -48,6 +44,11 @@ header {
   padding: 25px 20px;
   margin-top: 55px;
 }
+/* main {
+  width: 1600px;
+  height: 3229px;
+  background: #fff;
+} */
 .upper-sec {
   display: flex;
   justify-content: space-between;
@@ -69,7 +70,7 @@ header {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
   margin-top: 25px;
   margin-bottom: 16px;
 }
@@ -78,7 +79,7 @@ ul {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
 ul .myfailures:before {
   content: "✓";
@@ -86,40 +87,9 @@ ul .myfailures:before {
 }
 #person {
   margin-left: 200px;
-  /* margin-right: 825px; */
   border-radius: 50%;
   background: rgba(241, 91, 34, 0.2);
 }
-/* .myplans {
-  margin-top: 100px;
-  text-align: center;
-  color: #151414;
-  font-size: 40px;
-  font-weight: 700;
-}
-.myplanlist {
-  display: flex;
-  justify-content: space-around;
-  margin: 55px 50px;
-}
-.plans {
-  text-align: center;
-}
-.icons {
-  width: 92.958px;
-  height: 92.958px;
-  flex-shrink: 0;
-}
-h5 {
-  color: #151414;
-  font-size: 30px;
-  font-weight: 700;
-}
-.plans p {
-  color: #737272;
-  font-size: 25px;
-  font-weight: 500;
-} */
 .myplans {
   margin-top: 100px;
   text-align: center;
@@ -127,34 +97,127 @@ h5 {
   font-size: 40px;
   font-weight: 700;
 }
-
 .myplanlist {
   display: flex;
   justify-content: space-around;
   margin: 55px 150px 135px 150px;
 }
-
 .Plans {
   text-align: center;
 }
-
 .icons {
   width: 92.958px;
   height: 92.958px;
   flex-shrink: 0;
 }
-
 h5 {
   color: #151414;
   font-size: 30px;
   font-weight: 700;
   margin-top: 18px;
-
 }
-
 .Plans p {
   color: #737272;
   font-size: 25px;
   font-weight: 500;
+  margin-top: 16px;
+}
+.lower-sec {
+  height: 300px;
+  margin: 130px 200px;
+  background: url("../images/gradient2.png") top left,
+    url("../images/watch.png") top right;
+  border-radius: 10px;
+}
+.lower-sec h4 {
+  color: #fff;
+  font-size: 40px;
+  width: 460px;
+  padding-top: 60px;
+  padding-left: 65px;
+}
+.lower-sec button {
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  width: 160px;
+  height: 64px;
+  margin-top: 25px;
+  margin-left: 65px;
+}
+
+footer {
+  max-width: 1600px;
+  height: 577px;
+  background-color: #151414;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 130px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+/* .left-sec {
+
+} */
+.future h3 {
+  font-size: 45px;
+}
+.future .future-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 485px;
+  padding-top: 16px;
+  /* padding-right: 885px; */
+}
+.email {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.contact-social-media {
+  list-style: none;
+  display: flex;
+  padding-top: 32px;
+}
+.contact-social-media .social-media-icons {
+  list-style: none;
+  margin-right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 46px;
+}
+/* .right-sec{
+  display: block;
+} */
+.right-sec h6 {
+  font-size: 25px;
+  font-weight: 600;
+}
+input {
+  width: 325px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: #151414;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.subscribe-btn {
+  display: block;
+  width: 130px;
+  height: 50px;
+  border-radius: 8px;
+  color: #F15B22;
+  font-family: 'Inter', sans-serif;  
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   margin-top: 16px;
 }
