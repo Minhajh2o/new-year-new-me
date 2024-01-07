@@ -1,0 +1,160 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("../images/banner/banner1.png");
+  height: 100vh;
+}
+.banner {
+  padding-top: 216px;
+  padding-right: 230px;
+  display: block;
+  justify-items: right;
+  text-align: right;
+  margin-left: 845px;
+}
+/* .banner-text {
+  display: block;
+  justify-items: right;
+  text-align: right;
+  margin-left: 845px;
+} */
+.banner-title {
+  /* width: 525px; */
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner-description {
+  /* width: 494px; */
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 25px;
+}
+.primary-btn {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  padding: 25px 20px;
+  margin-top: 55px;
+}
+.upper-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 140px;
+  margin-right: 200px;
+}
+.upper-sec-cntent {
+  /* margin-right: 320px; */
+}
+.upper-sec-header {
+  width: 288px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.upper-sec-description {
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+ul {
+  list-style: none;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+ul .myfailures:before {
+  content: "✓";
+  color: #16d887;
+}
+#person {
+  margin-left: 200px;
+  /* margin-right: 825px; */
+  border-radius: 50%;
+  background: rgba(241, 91, 34, 0.2);
+}
+/* .myplans {
+  margin-top: 100px;
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.myplanlist {
+  display: flex;
+  justify-content: space-around;
+  margin: 55px 50px;
+}
+.plans {
+  text-align: center;
+}
+.icons {
+  width: 92.958px;
+  height: 92.958px;
+  flex-shrink: 0;
+}
+h5 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+.plans p {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+} */
+.myplans {
+  margin-top: 100px;
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.myplanlist {
+  display: flex;
+  justify-content: space-around;
+  margin: 55px 150px 135px 150px;
+}
+
+.Plans {
+  text-align: center;
+}
+
+.icons {
+  width: 92.958px;
+  height: 92.958px;
+  flex-shrink: 0;
+}
+
+h5 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 18px;
+
+}
+
+.Plans p {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 16px;
+}
